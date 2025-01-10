@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
+import Image from "next/image";
 import { NavigationMenuDemo } from "./navlinks";
 
 const Navbar = () => {
@@ -58,13 +58,14 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
+                <Link href={"#"}>About</Link>
+              </li>
+              <li>
                 <Link href={"#"}>Contact</Link>
               </li>
             </ul>
           </div>
-          <Link href={"#"} className="btn btn-ghost text-xl">
-            Contact
-          </Link>
+          <Image src="/FS Computers.png" alt="FS Computers" width={200} height={30} />
         </div>
         <div className="navbar-center hidden lg:flex">
           <div>

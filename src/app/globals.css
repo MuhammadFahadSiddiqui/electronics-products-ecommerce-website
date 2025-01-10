@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .custom-main-imag{
-  background-image: url('../');
-} */
+@layer utilities {
+  .hero-mac {
+    height: auto;
+    background-image: url('/images/categories/macbook.webp');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-dell {
+    height: auto;
+    background-image: url('/images/categories/Dell-XPS-5.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-gaming-laptop {
+    height: auto;
+    background-image: url('/images/categories/gaming laptop.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-graphic-card {
+    height: auto;
+    background-image: url('/images/categories/graphics card.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-accessories {
+    height: auto;
+    background-image: url('/images/categories/computer-accessories.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
